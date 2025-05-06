@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Async Await Example</title>
+  <script src="script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-purple-400 min-h-screen flex flex-col items-center justify-center">
+
+  <button id="fetchBtn" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mb-4">
+    Click me!
+  </button>
+
+  <div id="output" class="bg-white p-4 w-96 h-96 overflow-y-auto shadow-lg rounded">
+    <h2 class="text-xl font-semibold mb-2">Posts:</h2>
+    <ul id="postList" class="space-y-2"></ul>
+  </div>
+<script src="index.js"></script>
+</body>
+</html>
